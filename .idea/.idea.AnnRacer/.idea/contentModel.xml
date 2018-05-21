@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_AnnRacer.-1124613064.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+    <e p="C:\Users\Lucas\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_AnnRacer.1666241735.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Lucas\Work\Unity\AnnRacer" t="IncludeRecursive">
       <e p="AnnRacer.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -12,6 +12,7 @@
           <e p="Layer.cs" t="Include" />
           <e p="Neuron.cs" t="Include" />
         </e>
+        <e p="ANNDrive.cs" t="Include" />
         <e p="Drive.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
@@ -20,6 +21,7 @@
             </e>
           </e>
         </e>
+        <e p="training-data.txt" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
