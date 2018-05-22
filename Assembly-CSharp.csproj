@@ -58,10 +58,15 @@
     <Compile Include="Assets\Scripts\Game\ANN\Neuron.cs" />
     <Compile Include="Assets\Scripts\Game\ANNDrive.cs" />
     <Compile Include="Assets\Scripts\Game\Drive.cs" />
+    <Compile Include="Assets\Scripts\Game\DriveTrainingData.cs" />
+    <Compile Include="Assets\Scripts\Game\DriveTrainingEntry.cs" />
     <Compile Include="Assets\Scripts\Game\DriveUtils.cs" />
     <Compile Include="Assets\Scripts\Game\MathUtils.cs" />
+    <Compile Include="Assets\Scripts\Game\TrainingDataUtils.cs" />
+    <Compile Include="Assets\Scripts\Game\TrainingDataWriter.cs" />
     <None Include="Assets\Data\trainingData.txt" />
     <None Include="Assets\Data\trainingData 1.txt" />
+    <None Include="Assets\Data\test-data.txt" />
     <None Include="Assets\trainingData.txt" />
     <Reference Include="UnityEngine.UI">
       <HintPath>/Applications/Unity/Hub/Editor/2017.4.1f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

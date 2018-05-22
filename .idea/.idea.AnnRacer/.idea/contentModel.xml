@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets/Data" t="Include">
+        <e p="test-data.txt" t="Include" />
         <e p="trainingData 1.txt" t="Include" />
         <e p="trainingData.txt" t="Include" />
       </e>
@@ -19,14 +20,19 @@
           </e>
           <e p="ANNDrive.cs" t="Include" />
           <e p="Drive.cs" t="Include" />
+          <e p="DriveTrainingData.cs" t="Include" />
+          <e p="DriveTrainingEntry.cs" t="Include" />
           <e p="DriveUtils.cs" t="Include" />
           <e p="MathUtils.cs" t="Include" />
+          <e p="TrainingDataUtils.cs" t="Include" />
+          <e p="TrainingDataWriter.cs" t="Include" />
         </e>
         <e p="Tests" t="Include">
           <e p="Editor" t="Include">
             <e p="DriveUtilsTest.cs" t="Include" />
             <e p="MathUtilsTest.cs" t="Include" />
             <e p="NewEditModeTest1.cs" t="Include" />
+            <e p="TrainingDataTest.cs" t="Include" />
           </e>
         </e>
       </e>

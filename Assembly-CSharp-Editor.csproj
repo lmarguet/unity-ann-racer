@@ -56,6 +56,7 @@
     <Compile Include="Assets\Scripts\Tests\Editor\DriveUtilsTest.cs" />
     <Compile Include="Assets\Scripts\Tests\Editor\MathUtilsTest.cs" />
     <Compile Include="Assets\Scripts\Tests\Editor\NewEditModeTest1.cs" />
+    <Compile Include="Assets\Scripts\Tests\Editor\TrainingDataTest.cs" />
     <Reference Include="UnityEngine.UI">
       <HintPath>/Applications/Unity/Hub/Editor/2017.4.1f1/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>

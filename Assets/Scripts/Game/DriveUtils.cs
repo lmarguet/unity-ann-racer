@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
+using DefaultNamespace;
+using JetBrains.Annotations;
 using UnityEngine;
 
 namespace Game
 {
     public static class DriveUtils
     {
-
-        public static Dictionary<string,float> PerformRayCasts(Transform transform, float visibleDistance)
+        public static Dictionary<string, float> PerformRayCasts(Transform transform, float visibleDistance)
         {
             var position = transform.position;
             var rightDirection = transform.right;
@@ -42,10 +44,25 @@ namespace Game
         {
             return 1 - Round(hitDistance / visibleDistance);
         }
-    
+
         public static float Round(float x)
         {
             return (float) Math.Round(x, MidpointRounding.AwayFromZero) / 2.0f;
+        }
+
+        public static DriveTrainingEntry ParseToTrainingData([NotNull] IDictionary<string, float> distances,
+            float translationInput, float rotationInput)
+        {
+            if (distances == null) throw new ArgumentNullException("distances");
+
+            return new DriveTrainingEntry()
+                .Add(distances["forward"])
+                .Add(distances["right"])
+                .Add(distances["left"])
+                .Add(distances["right45"])
+                .Add(distances["left45"])
+                .Add(Round(translationInput))
+                .Add(Round(rotationInput));
         }
     }
 }

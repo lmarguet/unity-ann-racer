@@ -13,23 +13,18 @@ namespace Game
         public float rotationSpeed = 100.0F;
         public float visibleDistance = 200.0f;
 
-        private readonly List<string> collectedTrainingData = new List<string>();
+        private DriveTrainingData trainingData;
         private StreamWriter tdf;
 
         void Start()
         {
-            var path = Application.dataPath + "/trainingData.txt";
-            tdf = File.CreateText(path);
+            trainingData = new DriveTrainingData();
         }
 
         private void OnApplicationQuit()
         {
-            foreach (var td in collectedTrainingData)
-            {
-                tdf.WriteLine(td);
-            }
-
-            tdf.Close();
+            var writer = new TrainingDataWriter();
+            writer.Save(trainingData, "training-data");
         }
 
         void Update()
@@ -39,13 +34,9 @@ namespace Game
             ProcessPlayerInput(translationInput, rotationInput);
 
             var distances = DriveUtils.PerformRayCasts(transform, visibleDistance);
-
-            var trainingData = ParseToTrainingData(distances, translationInput, rotationInput);
-
-            if (!collectedTrainingData.Contains(trainingData))
-            {
-                collectedTrainingData.Add(trainingData);
-            }
+            var trainingEntry = DriveUtils.ParseToTrainingData(distances, translationInput, rotationInput);
+            
+            trainingData.AddEntry(trainingEntry);
         }
 
         private void ProcessPlayerInput(float translationInput, float rotationInput)
@@ -57,25 +48,6 @@ namespace Game
             transform.Rotate(0, rotation, 0);
         }
 
-        private static string ParseToTrainingData([NotNull] IDictionary<string, float> distances, float translationInput, float rotationInput)
-        {
-            if (distances == null) throw new ArgumentNullException("distances");
-
-            return new StringBuilder()
-                .Append(distances["forward"])
-                .Append(',')
-                .Append(distances["right"])
-                .Append(',')
-                .Append(distances["left"])
-                .Append(',')
-                .Append(distances["right45"])
-                .Append(',')
-                .Append(distances["left45"])
-                .Append(',')
-                .Append(DriveUtils.Round(translationInput))
-                .Append(',')
-                .Append(DriveUtils.Round(rotationInput))
-                .ToString();
-        }
+        
     }
 }
