@@ -2,49 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e22ee0b5-545b-42cc-80bf-d5a1cf3dc4c9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/MathUtils.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/MathUtils.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Tests/Editor/MathUtilsTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Tests/Editor/MathUtilsTest.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AnnRacer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AnnRacer/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AnnRacer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AnnRacer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnnRacer.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AnnRacer.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnnRacer.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/AnnRacer.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ANN.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ANN/ANN.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ANN/ANN.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ANN/Layer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ANN/Layer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ANN/Neuron.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ANN/Neuron.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ANNDrive.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ANNDrive.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Drive.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Drive.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tests/Editor/DriveUtilsTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tests/Editor/DriveUtilsTest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/00/00000000000000004000000000000000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/09/098fdf32b1f3943a69d9caa371fd4648" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/09/098fdf32b1f3943a69d9caa371fd4648" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/09/098fdf32b1f3943a69d9caa371fd4648.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/09/098fdf32b1f3943a69d9caa371fd4648.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/2e/2e2a431cd9b234820a0349b87d2917e2" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2e/2e2a431cd9b234820a0349b87d2917e2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/2e/2e2a431cd9b234820a0349b87d2917e2.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/2e/2e2a431cd9b234820a0349b87d2917e2.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/3a/3a9d8a946e22244c89249ecf21c1bfee" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/3a/3a9d8a946e22244c89249ecf21c1bfee" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/3a/3a9d8a946e22244c89249ecf21c1bfee.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/3a/3a9d8a946e22244c89249ecf21c1bfee.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/98/9800ef8c09c964afb82974866215f0c2" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/98/9800ef8c09c964afb82974866215f0c2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/9e/9ed66c658529f4301bdfab53a3eafc40" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/9e/9ed66c658529f4301bdfab53a3eafc40" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/9e/9ed66c658529f4301bdfab53a3eafc40.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/9e/9ed66c658529f4301bdfab53a3eafc40.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/b0/b0577098a7c2e4044add67bcd42de4a4" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b0/b0577098a7c2e4044add67bcd42de4a4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/b0/b0577098a7c2e4044add67bcd42de4a4.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b0/b0577098a7c2e4044add67bcd42de4a4.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/b6/b6b61afa606304a198b94e088779fc4a" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b6/b6b61afa606304a198b94e088779fc4a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/b6/b6b61afa606304a198b94e088779fc4a.info" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/b6/b6b61afa606304a198b94e088779fc4a.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/metadata/5d/5d5f1f98b1dda4ced945fb7ebc366d9d" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/5d/5d5f1f98b1dda4ced945fb7ebc366d9d" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -146,16 +111,16 @@
       <file leaf-file-name="DriveUtilsTest.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tests/Editor/DriveUtilsTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="118" selection-start-line="27" selection-start-column="118" selection-end-line="27" selection-end-column="118" />
+            <state relative-caret-position="420">
+              <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
               <folding>
-                <marker date="1527020359000" expanded="true" signature="6:53" ph="..." />
-                <marker date="1527020359000" expanded="true" signature="77:1706" ph="{...}" />
-                <marker date="1527020359000" expanded="true" signature="109:1704" ph="{...}" />
-                <marker date="1527020359000" expanded="true" signature="153:494" ph="{...}" />
-                <marker date="1527020359000" expanded="true" signature="539:1214" ph="{...}" />
-                <marker date="1527020359000" expanded="true" signature="1311:1402" ph="{...}" />
-                <marker date="1527020359000" expanded="true" signature="1406:1701" ph="/* A UnityTest behaves like a coroutine in PlayMode ... */" />
+                <marker date="1527020629000" expanded="true" signature="6:53" ph="..." />
+                <marker date="1527020629000" expanded="true" signature="77:1692" ph="{...}" />
+                <marker date="1527020629000" expanded="true" signature="111:1690" ph="{...}" />
+                <marker date="1527020629000" expanded="true" signature="170:571" ph="{...}" />
+                <marker date="1527020629000" expanded="true" signature="628:1203" ph="{...}" />
+                <marker date="1527020629000" expanded="true" signature="1322:1450" ph="{...}" />
+                <marker date="1527020629000" expanded="true" signature="1551:1684" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -341,12 +306,12 @@
       <workItem from="1522696992588" duration="1101000" />
       <workItem from="1526908807333" duration="7239000" />
       <workItem from="1526995692332" duration="269000" />
-      <workItem from="1526996062789" duration="8411000" />
+      <workItem from="1526996062789" duration="8686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17020000" />
+    <option name="totallyTimeSpent" value="17295000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -534,16 +499,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Tests/Editor/DriveUtilsTest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="118" selection-start-line="27" selection-start-column="118" selection-end-line="27" selection-end-column="118" />
+        <state relative-caret-position="420">
+          <caret line="28" column="61" selection-start-line="28" selection-start-column="61" selection-end-line="28" selection-end-column="61" />
           <folding>
-            <marker date="1527020359000" expanded="true" signature="6:53" ph="..." />
-            <marker date="1527020359000" expanded="true" signature="77:1706" ph="{...}" />
-            <marker date="1527020359000" expanded="true" signature="109:1704" ph="{...}" />
-            <marker date="1527020359000" expanded="true" signature="153:494" ph="{...}" />
-            <marker date="1527020359000" expanded="true" signature="539:1214" ph="{...}" />
-            <marker date="1527020359000" expanded="true" signature="1311:1402" ph="{...}" />
-            <marker date="1527020359000" expanded="true" signature="1406:1701" ph="/* A UnityTest behaves like a coroutine in PlayMode ... */" />
+            <marker date="1527020629000" expanded="true" signature="6:53" ph="..." />
+            <marker date="1527020629000" expanded="true" signature="77:1692" ph="{...}" />
+            <marker date="1527020629000" expanded="true" signature="111:1690" ph="{...}" />
+            <marker date="1527020629000" expanded="true" signature="170:571" ph="{...}" />
+            <marker date="1527020629000" expanded="true" signature="628:1203" ph="{...}" />
+            <marker date="1527020629000" expanded="true" signature="1322:1450" ph="{...}" />
+            <marker date="1527020629000" expanded="true" signature="1551:1684" ph="{...}" />
           </folding>
         </state>
       </provider>
