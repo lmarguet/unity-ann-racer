@@ -40,5 +40,28 @@ namespace Tests.Editor
                 MathUtils.AreVectorEquals(vectorA, vectorB, tolerance)
             );
         }
+
+
+        [Test]
+        public void TestRound()
+        {
+            Assert.IsTrue(DriveUtils.Round(0) == 0);
+            Assert.IsTrue(DriveUtils.Round(0.25f) == 0);
+            
+            Assert.IsTrue(DriveUtils.Round(0.3f) == 0f);
+            Assert.IsTrue(DriveUtils.Round(0.5f) == 0.5f);
+            Assert.IsTrue(DriveUtils.Round(0.75f) == 0.5f);
+            Assert.IsTrue(DriveUtils.Round(1) == 0.5f);
+        }
+
+        [Test]
+        public void TestNormalizeHitDistance()
+        {
+            Assert.IsTrue(DriveUtils.NormalizeHitDistance(200, 250) == 0.5f);
+            Assert.IsTrue(DriveUtils.NormalizeHitDistance(200, 200) == 0.5f);
+            Assert.IsTrue(DriveUtils.NormalizeHitDistance(200, 100) == 0.5f);
+            Assert.IsTrue(DriveUtils.NormalizeHitDistance(200, 50) == 1);
+            Assert.IsTrue(DriveUtils.NormalizeHitDistance(200, 0) == 1);
+        }
     }
 }
